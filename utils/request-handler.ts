@@ -132,7 +132,7 @@ export class RequestHandler{
 
     private cleanupFields(){
         this.apiBody = {}
-        //this.apiHeaders = {}
+        this.apiHeaders = {}
         this.baseUrl = undefined
         this.apiPath = ''
         this.queryParams = {}
